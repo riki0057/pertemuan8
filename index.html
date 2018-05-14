@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tipe 1</title>
+	<style type="text/css">
+		body{
+			display: flex;
+			flex-direction: column;
+			height: 100vh;
+		}
+		header{
+			height:70px;
+			display: flex;
+			background-color:#005bbc; 
+		}
+		.menu{
+			padding: 20PX;
+			color: white;
+
+		}
+		.button{
+			height: 40px;
+			width: 75px;
+			background-color: white;
+			color: #005bbc; 
+			border-radius: 25px;
+			margin:10px;
+			border: 3px solid #005bbc; 
+		}
+		.button:hover{
+			background-color: #005bbc;
+			border: 3px solid white;
+			color:white; 
+		}
+		content{
+			background-color: #eceff1;
+			height:100%;
+		}
+		.header{
+			width: 800PX;
+			display: flex;
+			justify-content: flex-end;
+			
+		}
+		.menu:hover{
+			background-color: white;
+			color: #005bbc; 
+		}
+
+		.header-caption >h1	{
+			color:#fff;
+			padding-top: -250px;
+			text-align: right;
+			margin-right: 20px;
+		}
+		hr{
+			width:80px;
+			height: 5px;
+			border-radius: 5px;
+			background-color:#005bbc; 
+		}
+		h1{
+			text-align: center;
+		}
+		p{
+			color:#2a4e75;
+			font-family: 'Roboto', sans-serif;
+			text-align: center;
+		}
+		.container-content{
+			display: flex;
+			justify-content: center;
+
+
+		}
+		.frame{
+			display: flex;
+			flex-direction: column;
+			width:300px;
+			height: 350px;
+			position: relative;
+			margin-right: 30px;
+
+			
+		}
+		.image{
+			width: 300px;
+			height: 170px;
+		}
+		.image >img{
+			width: 300px;
+			height: 170px;
+		}
+		.text{
+			width:300px;
+			height: 170px;
+			background-color:#005bbc; 
+		}
+		h3{ padding-top:25px;color:white;text-align: center;}
+		.text > p{
+			color:white;text-align: center;
+		}
+		.square{
+			left:120px;	
+			top:150px;
+			width: 50px;
+			height:50px;
+			border-radius:5px;
+			transform: rotate(45deg); 
+			background-color: #f0f4ba;
+			position: absolute;
+		}
+		.square >img{
+			width: 30px;
+			height: 30px;
+			transform: rotate(-45deg); 
+			padding-top: 15px;
+			padding-left: 10px;
+		}
+		.square:hover {
+			border-color: white;
+		}
+	</style>
+</head>
+<body>
+	<header>
+
+		<div class="menu"><b>HOME</b></div>
+		<div class="menu"><b>ABOUT</b></div>
+		<div class="menu"><b>SERVICE</b></div>
+		<div class="menu"><b>TEAM</b></div>
+		<div class="menu"><b>NEWS</b></div>
+		<div class="menu"><b>CONTACT</b></div>
+		<input type="button" value="SIGN IN" class="button">
+		<div class="header"><div class="header-caption"><h1>Paypoll</h2></div></div>
+			
+	</header>
+	<content>
+			<h1>Why Choose Paypoll</h1>
+			<hr noshade="">
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+			<div class="container-content">
+				
+				<div class="frame">
+					
+						<div class="image"><img src="feature-1.jpg"></div>
+						<div class="square"><img src="user-icon.png"></div>
+						<div class="text">
+							<h3>VERIFY ACCOUNT</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci id molestiae Assumenda laborum officia rem</p>
+						</div>
+				</div>
+				<div class="frame">
+						<div class="image"><img src="feature-2.jpg"></div>
+						<div class="square"><img src="money-icon.png"></div>
+						<div class="text">
+							<h3>PAYMENT ANYWHERE</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci id molestiae Assumenda laborum officia rem</p>
+						</div>
+				</div>
+				<div class="frame">
+						<div class="image"><img src="feature-3.jpg"></div>
+						<div class="square"><img src="p-icon.png"></div>
+						<div class="text">
+							<h3>SAFELY TRANSACTION</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci id molestiae Assumenda laborum officia rem</p>
+						</div>
+				</div>
+			</div>
+	</content>
+</body>
+</html>
